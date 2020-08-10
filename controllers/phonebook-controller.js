@@ -13,4 +13,9 @@ module.exports = {
 
 		res.redirect('/');
 	},
+	delete: (req, res) => {
+		const { name } = req.query;
+		phonebook.deleteContact(name);
+		res.redirect('/');
+	},
 };
