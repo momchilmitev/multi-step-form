@@ -1,1 +1,6 @@
 @import "./assets/css/reset.css";
+@import "./assets/css/fonts.css";
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
