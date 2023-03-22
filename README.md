@@ -1,1 +1,3 @@
 # MultiStepForm
+
+![Preview](preview.jpg)
