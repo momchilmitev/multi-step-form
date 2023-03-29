@@ -3,16 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BackButtonComponent } from './subscription-form/components/back-button/back-button.component';
+import { SubscriptionFormModule } from './subscription-form/subscription-form.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BackButtonComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SubscriptionFormModule
   ],
   providers: [],
   bootstrap: [AppComponent]
